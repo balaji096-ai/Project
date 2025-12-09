@@ -1,0 +1,20 @@
+// File: HelloWorld.java
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Print a message to the console
+        System.out.println("Hello, World!");
+
+        // Declare variables
+        int number = 10;
+        String name = "Java";
+
+        // Perform a simple calculation
+        int square = number * number;
+
+        // Print results
+        System.out.println("Number: " + number);
+        System.out.println("Square of " + number + " is: " + square);
+        System.out.println("Programming in " + name);
+    }
+}
